@@ -32,7 +32,7 @@ if ( !empty($withcomments) && !is_single() ) {
 <div id="header">
 	<div id="headerimg">
 		<h1><a href="#"><img src='<?php bloginfo('stylesheet_directory'); ?>/images/geek_heading.jpg' alt="GeekeerieBlog"></a></h1>
-		<!--<div class="description"><?php bloginfo('description'); ?></div>-->
-		<div class="info"><div>&nbsp;</div></div>
+		<!--<div class="description"><?#php bloginfo('description'); ?></div>-->
+		<div class="info"><?php include (TEMPLATEPATH . '/searchform.php'); ?></div>
 	</div>
 </div>

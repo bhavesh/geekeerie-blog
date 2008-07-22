@@ -1,34 +1,22 @@
 /*
-Theme Name: WordPress Default
-Theme URI: http://wordpress.org/
+Theme Name: geekeerieBlog
+Theme URI: http://geekeerie.com
 Description: The default WordPress theme based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
 Version: 1.6
-Author: Michael Heilemann
-Author URI: http://binarybonsai.com/
-Tags: blue, custom header, fixed width, two columns, widgets
-
-	Kubrick v1.5
-	 http://binarybonsai.com/kubrick/
-
-	This theme was designed and built by Michael Heilemann,
-	whose blog you will find at http://binarybonsai.com/
-
-	The CSS, XHTML and design is released under GPL:
+Author: Bhavesh Dhuper
+The CSS, XHTML and design is released under GPL:
 	http://www.opensource.org/licenses/gpl-license.php
 
 */
-
-
 
 /* Begin Typography & Colors */
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	background: #d5d6d7 url('images/kubrickbgcolor.jpg');
-	color: #333;
+	background: #FFF;
+	color: #555;
 	text-align: center;
 	}
-
 #page {
 	background-color: white;
 	border: 1px solid #959596;
@@ -42,21 +30,20 @@ body {
 
 #headerimg 	{
 	margin: 7px 9px 0;
-	height: 192px;
-	width: 740px;
 	}
 
 #content {
-	font-size: 1.2em
+	font-size: 1.2em;
+  margin-bottom: 30px;
 	}
-
+#content .postmetadata a { color:#CC6800; padding: 0 3px;}
 .widecolumn .entry p {
 	font-size: 1.05em;
 	}
 
 .narrowcolumn .entry, .widecolumn .entry {
 	line-height: 1.4em;
-	width: 90%;
+	
 	}
 
 .widecolumn {
@@ -64,7 +51,7 @@ body {
 	}
 
 .narrowcolumn .postmetadata {
-	text-align: center;
+	text-align: left;
 	}
 
 .alt {
@@ -73,15 +60,11 @@ body {
 	border-bottom: 1px solid #ddd;
 	}
 
-#footer {
-	background: #eee url('images/kubrickfooter.jpg') no-repeat top;
-	border: none;
-	}
 
 small {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 0.9em;
-	line-height: 1.5em;
+	font-size: 1.2em;
+	line-height: 1.7em;
 	}
 
 h1, h2, h3 {
@@ -169,7 +152,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 #sidebar {
-	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font: 1.2em 'Lucida Grande', Verdana, Arial, Sans-Serif;
 	}
 
 small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
@@ -225,18 +208,15 @@ body {
 
 #page {
 	background-color: white;
-	margin: 20px auto;
+	margin: 0 auto;
 	padding: 0;
-	width: 760px;
-	border: 1px solid #959596;
+	width: 80%;
 	}
 
 #header {
 	/*background-color: #73a0c5;*/
 	margin: 0 0 0 1px;
 	padding: 0;
-
-	width: 758px;
 	}
 
 #headerimg {
@@ -261,29 +241,30 @@ body {
   margin: 25px 26px 0px 0px ;
 }
 
-#headerimg .info div {
+/*#headerimg .info div {
   background: url(images/GeekeeerieBlog.png) no-repeat left top;
   margin:0 auto;
   width: 50%;
   height: 54px;
   margin-top: 5px;
 }
-
+*/
 
 
 .narrowcolumn {
 	float: left;
-	padding: 0 0 20px 45px;
+	padding: 0 32px 20px 45px;
 	margin: 0px 0 0;
-	width: 490px;
-	background: url(images/content-bg.jpg) repeat-y center top;
+	width: 65%;
+	border-right: 1px solid #ccc;
+/*	background: url(images/content-bg.jpg) repeat-y right top;*/
 	}
 
 .widecolumn {
 	padding: 10px 0 20px 0;
 	margin: 5px 0 0 150px;
-	width: 450px;
-	}
+	width: 65%;
+}
 
 .post {
 	margin: 0 0 40px;
@@ -293,7 +274,12 @@ body {
 .post hr {
 	display: block;
 	}
-
+.post h2 a{
+    background:transparent url(images/h2.gif) no-repeat scroll left bottom;
+    color:#0091BB;
+    font-size:24px;
+    padding-bottom:35px
+}
 .widecolumn .post {
 	margin: 0;
 	}
@@ -329,14 +315,14 @@ body {
 #footer {
 	padding: 0;
 	margin: 0 auto;
-	width: 760px;
 	clear: both;
+  background: #D8D7FF; 
 	}
-
+#footer .right_text { margin: 10px; float: right; }
 #footer p {
-	margin: 0;
-	padding: 20px 0;
-	text-align: center;
+	margin: 10px;
+	padding: 10px 0;
+	text-align: left;
 	}
 /* End Structure */
 
@@ -358,8 +344,9 @@ h2.pagetitle {
 }
 
 #sidebar h2 {
-	margin: 5px 0 0;
 	padding: 0;
+  margin:0; 
+  color: #727272; 
 	}
 
 h3 {
@@ -489,11 +476,10 @@ ol li, #sidebar ul ol li {
 
 /* Begin Form Elements */
 #searchform {
-	margin: 10px auto;
-	padding: 5px 3px;
 	text-align: center;
+  line-height: 74px;
 	}
-
+#searchform input[type="text"] { width: 200px; }
 #sidebar #searchform #s {
 	width: 108px;
 	padding: 2px;
@@ -533,7 +519,7 @@ select {
 /* Begin Comments*/
 .alt {
 	margin: 0;
-	padding: 10px;
+	padding: 15px;
 	}
 
 .commentlist {
@@ -572,11 +558,11 @@ select {
 /* Begin Sidebar */
 #sidebar
 {
-	padding: 0px 0 10px 0;
-	margin-left: 545px;
-	width: 190px;
+	padding: 0;
+	width: 25%;
+  float: right; 
 	}
-
+#sidebar a { color: #506B2E; }
 #sidebar form {
 	margin: 0;
 	}
@@ -661,7 +647,6 @@ a img {
 	display: block;
 	text-align: center;
 	margin-top: 10px;
-	margin-bottom: 60px;
 	}
 /* End Various Tags & Classes*/
 
