@@ -2,19 +2,19 @@
  <div class="mainNav">
       <ul class="head-navigation">
         <li>
-          <a href="/index">Home</a>
+          <a href="http://geekeerie.com">Home</a>
         </li>
         <li>
-          <a href="/training">Training</a>
+          <a href="http://geekeerie.com/training">Training</a>
         </li>
         <li>
-          <a href="/workshop">Workshop</a>
+          <a href="http://geekeerie.com/workshop">Workshop</a>
         </li>
         <li>
-          <a href="/open_source">Open Source</a>
+          <a href="http://geekeerie.com/open_source">Open Source</a>
         </li>
         <li>
-          <a href="/about_us">About Us</a>
+          <a href="http://geekeerie.com/about_us">About Us</a>
         </li>
         <li>
           <a href="http://geekeerie.com/contact_us">Contact Us</a>
