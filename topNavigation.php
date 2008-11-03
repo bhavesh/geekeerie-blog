@@ -1,4 +1,5 @@
 <div id="head-wrapper">
+ <div class="mainNav">
       <ul class="head-navigation">
         <li>
           <a href="/index">Home</a>
@@ -21,5 +22,5 @@
 		<li>
           <a href="http://geekeerie.com/blog/">Blog</a>
         </li>
-      </ul>
+      </ul></div>
     </div>

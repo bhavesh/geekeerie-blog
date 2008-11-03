@@ -29,8 +29,9 @@ body {
 }
 
 /*********Navigation ***************/
+.mainNav{width: 80%; margin: 0 auto; overflow: hidden; }
 #head-wrapper { background: url("images/geek_header.gif") repeat left top; height: 50px; border-bottom: 2px solid #000; }
-#head-wrapper .head-navigation { list-style: none; line-height: 50px; float: right; margin: 0 80px 0 0; }
+#head-wrapper .head-navigation { list-style: none; line-height: 50px; float: right; margin: 0; }
 #head-wrapper .head-navigation li { float: left; }
 #head-wrapper .head-navigation li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #555; padding: 0 9px 0 10px; border-right: 1px solid #a0a1aF; display: block; float: left; }
 #head-wrapper .head-navigation li a:hover { color: #fff; background: #616498 url("images/nav_gradient.png") no-repeat left top; }
