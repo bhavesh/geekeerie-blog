@@ -28,6 +28,14 @@ body {
   	
 }
 
+/*********Navigation ***************/
+#head-wrapper { background: url("images/geek_header.gif") repeat left top; height: 50px; border-bottom: 2px solid #000; }
+#head-wrapper .head-navigation { list-style: none; line-height: 50px; float: right; margin: 0 80px 0 0; }
+#head-wrapper .head-navigation li { float: left; }
+#head-wrapper .head-navigation li a { font-size: 14px; font-weight: bold; text-decoration: none; color: #555; padding: 0 9px 0 10px; border-right: 1px solid #a0a1aF; display: block; float: left; }
+#head-wrapper .head-navigation li a:hover { color: #fff; background: #616498 url("images/nav_gradient.png") no-repeat left top; }
+
+
 #headerimg 	{
 	margin: 7px 9px 0;
 	}
@@ -256,8 +264,8 @@ body {
 	padding: 0 32px 20px 45px;
 	margin: 0px 0 0;
 	width: 65%;
-	border-right: 1px solid #ccc;
-/*	background: url(images/content-bg.jpg) repeat-y right top;*/
+	/*border-right: 1px solid #ccc;*/
+    background: url(images/content-bg.jpg) repeat-y right top;
 	}
 
 .widecolumn {
@@ -558,9 +566,12 @@ select {
 /* Begin Sidebar */
 #sidebar
 {
-	padding: 0;
-	width: 25%;
+  padding: 0;
+  width: 25%;
   float: right; 
+  margin-left:-1px;
+  border-left:1px solid #EFF0E2;
+  padding-left: 24px;
 	}
 #sidebar a { color: #506B2E; }
 #sidebar form {

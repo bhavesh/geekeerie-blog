@@ -18,7 +18,7 @@ if ( !empty($withcomments) && !is_single() ) {
 ?>
 	#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbg-<?php bloginfo('text_direction'); ?>.jpg") repeat-y top; border: none; }
 <?php } else { // No sidebar ?>
-	#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbgwide.jpg") repeat-y top; border: none; }
+	<!-- #page { background: url("<#?php bloginfo('stylesheet_directory'); ?>/images/kubrickbgwide.jpg") repeat-y top; border: none; } -->
 <?php } ?>
 
 </style>
@@ -26,12 +26,14 @@ if ( !empty($withcomments) && !is_single() ) {
 <?php wp_head(); ?>
 </head>
 <body>
+<?php include ('topNavigation.php'); ?>
 <div id="page">
 
 
 <div id="header">
+
 	<div id="headerimg">
-		<h1><a href="#"><img src='<?php bloginfo('stylesheet_directory'); ?>/images/geek_heading.jpg' alt="GeekeerieBlog"></a></h1>
+		<h1><a href="http://geekeerie.com/blog"><img src='<?php bloginfo('stylesheet_directory'); ?>/images/geek_heading.jpg' alt="GeekeerieBlog"></a></h1>
 		<!--<div class="description"><?#php bloginfo('description'); ?></div>-->
 		<div class="info"><?php include (TEMPLATEPATH . '/searchform.php'); ?></div>
 	</div>
