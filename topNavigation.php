@@ -13,14 +13,15 @@
         <li>
           <a href="http://geekeerie.com/open_source">Open Source</a>
         </li>
+		<li>
+          <a href="http://geekeerie.com/blog/">Blog</a>
+        </li>
         <li>
           <a href="http://geekeerie.com/about_us">About Us</a>
         </li>
         <li>
           <a href="http://geekeerie.com/contact_us">Contact Us</a>
         </li>
-		<li>
-          <a href="http://geekeerie.com/blog/">Blog</a>
-        </li>
+		
       </ul></div>
     </div>

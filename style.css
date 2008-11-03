@@ -271,8 +271,8 @@ body {
 
 .widecolumn {
 	padding: 10px 0 20px 0;
-	margin: 5px 0 0 150px;
-	width: 65%;
+	margin: 5px 0 0 35px;
+	width: 80%;
 }
 
 .post {
@@ -657,8 +657,8 @@ a img {
 
 .navigation {
 	display: block;
-	text-align: center;
 	margin-top: 10px;
+	overflow: hidden;
 	}
 /* End Various Tags & Classes*/
 
